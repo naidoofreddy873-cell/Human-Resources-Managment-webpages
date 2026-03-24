@@ -1,28 +1,120 @@
-
-<html>
+--- index.html ---
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>HR Portal</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metropolitan Lesotho Insurance HR | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Metropolitan Lesotho Insurance Logo" class="logo-img">
+                <div class="logo-text">
+                    <strong>Metropolitan Lesotho Insurance</strong>
+                    <span>HR Portal</span>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="culture.html">Culture</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="benefits.html">Benefits</a></li>
+                    <li><a href="training.html">Training</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<nav> ...same menu... </nav>
+    <main>
+        <section class="hero" style="background-image: linear-gradient(135deg, rgba(11,60,109,0.85), rgba(30,95,168,0.75)), url('images/1.jpeg');">
+            <div class="container hero-content">
+                <h1>Shaping Futures, Insuring Careers</h1>
+                <p>Join a legacy of trust, excellence, and professional growth at Metropolitan Lesotho Insurance. Your career journey starts here.</p>
+                <a href="careers.html" class="btn-primary">View Careers</a>
+            </div>
+        </section>
 
-<div class="container">
-  <h1>Welcome to Our HR Portal</h1>
-  <p>We support employees through recruitment, development, and benefits.</p>
+        <section class="section">
+            <div class="container">
+                <div class="two-col-grid">
+                    <div>
+                        <h2>Welcome to Our HR Hub</h2>
+                        <p>Metropolitan Lesotho Insurance has been a pillar of financial security and peace of mind across the nation. Our Human Resources Management Portal is designed to empower our greatest asset — our people. We foster a culture of integrity, innovation, and unwavering commitment to clients and colleagues alike.</p>
+                        <p>Whether you're exploring career opportunities, understanding our employee benefits, or advancing your skills through training, we provide the tools for you to thrive.</p>
+                        <a href="culture.html" class="btn-secondary">Discover Our Culture</a>
+                    </div>
+                    <div>
+                        <img src="images/5.jpg" alt="Modern office environment" class="responsive-img">
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <img src="images/team.jpg" width="400">
+        <section class="section bg-light">
+            <div class="container">
+                <h2 class="text-center">Meet Our Leadership Team</h2>
+                <div class="team-grid">
+                    <div class="team-card">
+                        <img src="images/6.jpg" alt="Team member">
+                        <h3>Thabo Mokoena</h3>
+                        <p>Chief Executive Officer</p>
+                    </div>
+                    <div class="team-card">
+                        <img src="images/7.jpg" alt="Team member">
+                        <h3>Lerato Masia</h3>
+                        <p>HR Director</p>
+                    </div>
+                    <div class="team-card">
+                        <img src="images/8.jpg" alt="Team member">
+                        <h3>Palesa Ntsane</h3>
+                        <p>Head of Underwriting</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <h2>Our Services</h2>
-  <ul>
-    <li>Recruitment</li>
-    <li>Employee Benefits</li>
-    <li>Training Programs</li>
-  </ul>
-</div>
+        <section class="section">
+            <div class="container">
+                <h2 class="text-center">Inside Metropolitan: A Culture of Excellence</h2>
+                <div class="video-wrapper">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YK1BfVhA7hM?si=u0A9edGcqgK9KQKq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="text-center" style="margin-top: 2rem;">
+                    <a href="careers.html" class="btn-primary">Join Our Team →</a>
+                </div>
+            </div>
+        </section>
+    </main>
 
-<footer>© 2026 HR Portal</footer>
-
+    <footer>
+        <div class="container footer-grid">
+            <div>
+                <h4>Metropolitan Lesotho Insurance HR</h4>
+                <p>Committed to empowering our workforce and serving the nation with integrity.</p>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <p>Email: hr@metropolitan.co.ls</p>
+                <p>Phone: +266 2221 2300</p>
+                <p>Kingsway Road, Maseru, Lesotho</p>
+            </div>
+            <div>
+                <h4>Connect</h4>
+                <ul class="social-links">
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="https://www.metropolitan.co.ls" target="_blank" rel="noopener">Official Site</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Metropolitan Lesotho Insurance. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
